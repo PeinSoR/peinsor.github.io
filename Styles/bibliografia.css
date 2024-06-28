@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-bottom: 2%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-align {
+    padding: 15px;
+}
+
+nav {
+    text-align: center; /* Centra los elementos dentro del nav horizontalmente */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Hace que la lista sea un bloque inline para que pueda centrarse */
+}
+
+nav li {
+    display: inline-block; /* Hace que los elementos <li> se muestren en línea */
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Estilos :hover para cada enlace */
+nav li a.inicio:hover {
+    background-color: rgba(83, 15, 15, 0.5) !important;
+}
+
+nav li a.temario:hover {
+    background-color: rgba(16, 86, 16, 0.5) !important;
+}
+
+nav li a.bibliografia:hover {
+    background-color: rgba(20, 28, 89, 0.5) !important;
+}
+
+nav li a.tickets:hover {
+    background-color: rgba(68, 75, 21, 0.5) !important;
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Apila los div verticalmente */
+    align-items: center;
+    padding: 20px;
+}
+
+.content-box {
+    background-color: #f4f4f4;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-bottom: 20px; /* Espacio entre los divs */
+    text-align: justify; /* Justifica el texto del párrafo */
+    width: 100%; /* Para asegurarse de que el div tome todo el ancho disponible dentro del main */
+}
+
+.content-box h1, .content-box h2 {
+    text-align: left; /* Alinea el h1 y h2 a la izquierda */
+    margin-bottom: 1em; /* Espacio inferior para separar del párrafo */
+}
+
+.content-box a{
+    color: #f50057;
+}
+
+.welcome-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-container {
+    text-align: center; /* Alinea el contenido al centro */
+}
+.boton-descarga {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(65, 33, 33);
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center; /* Alinea el texto dentro del botón */
+    margin: 0 auto; /* Centra horizontalmente el botón */
+}
+.boton-descarga:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.footer .footer-links {
+    margin-bottom: 10px;
+}
+
+.footer .footer-links a {
+    margin: 0 10px;
+    color: #f50057;
+    text-decoration: none;
+}
+
+.footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer .footer-social {
+    margin-top: 10px;
+}
+
+.footer .footer-social a {
+    margin: 0 10px;
+    color: #666;
+    text-decoration: none;
+}
+
+.footer .footer-social a:hover {
+    color: #000;
+}

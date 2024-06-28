@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathverse</title>
+    <link rel="icon" type="image/x-icon" href="Images/mathverse.ico">
+    <link rel="stylesheet" href="Styles/index.css">
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <div class="img-align">
+            <img src="Images/mathverse.jpeg" alt="Mathverse" width="50">
+        </div>
+        <div>
+            <h1>Mathverse</h1>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="inicio">Inicio</a></li>
+            <li><a href="temario.html" class="temario">Temario</a></li>
+            <li><a href="bibliografia.html" class="bibliografia">Bibliografía</a></li>
+            <li><a href="politicas.html" class="tickets">Políticas</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+
+    <div class="content-box" id="Numeros">
+        <h2>Números Complejos</h2>
+        <p>Un número complejo es cualquier número que puede escribirse como 
+        <strong>a + bi</strong>, donde <i>i</i> es la unidad imaginaria y <strong>a</strong>, <strong>b</strong>
+        son reales. Al término <strong>a</strong> se le conoce como parte real del número, mientras que al término 
+        <strong>bi</strong> se le conoce como parte imaginaria. 
+        Podemos definir que cualquier número imaginario es también un número complejo así tal que cualquier número real es también un número complejo en función si el término <strong>a = 0</strong> o <strong>bi = 0</strong>.</p>
+        <p>Algunos ejemplos son:</p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mn>3</mn>
+            <mo>+</mo>
+            <mn>4</mn>
+            <mi>i</mi>
+        </math>
+        <p></p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mo>-</mo>
+            <mn>2</mn>
+            <mo>-</mo>
+            <mn>5</mn>
+            <mi>i</mi>
+        </math>
+        <p></p>
+
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mn>7</mn>
+            <mo>-</mo>
+            <mn>3</mn>
+            <mi>i</mi>
+        </math>
+        <p></p>
+
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mo>-</mo>
+            <mn>4</mn>
+            <mo>+</mo>
+            <mn>6</mn>
+            <mi>i</mi>
+        </math>
+        <p></p>
+
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mn>1</mn>
+            <mo>+</mo>
+            <mn>1</mn>
+            <mi>i</mi>
+        </math>
+        <p></p>
+
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mo>-</mo>
+            <mn>1</mn>
+            <mo>-</mo>
+            <mn>1</mn>
+            <mi>i</mi>
+        </math>
+        <p></p>
+
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mn>0</mn>
+            <mo>+</mo>
+            <mn>2</mn>
+            <mi>i</mi>
+        </math>
+        <p></p>
+
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mo>-</mo>
+            <mn>5</mn>
+            <mo>-</mo>
+            <mn>8</mn>
+            <mi>i</mi>
+        </math>
+        <p>Aquí hay un video para reforzar:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vBEw1btD_Ro?si=b3fqnFQ_zLM0lI9C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="content-box" id="Operaciones">
+        <h2>1.1 Operaciones con Números Complejos</h2>
+        <p>Los números complejos pueden realizar operaciones entre dos o más números complejos como los números reales:</p>
+        <p>Consideremos a (z = x + iy) y también a (w = a + ib).</p>
+        <p><strong>a) Suma:</strong> Se suman las partes reales e imaginarias por separado</p>
+        <p>(z + w) = (x + a) + (y + b)i </p>
+        <p><strong>b) Resta:</strong> Se restan las partes reales e imaginarias por separado</p>
+        <p>(z - w) = (x - a) + (y - b)i </p>
+        <p><strong>c) Multiplicación:</strong> Se utiliza el método de multiplicación de binomios</p>
+        <p>(z * w) = (xa -yb) = (xa - yb) + (ya + xb)i</p>
+        <p><strong>d) División:</strong> Multiplicar el numerador y el denominador por el conjugado complejo, desarrollar y simplificar</p>
+
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mfrac>
+                <mrow>
+                    <mi>z</mi>
+                </mrow>
+                <mrow>
+                    <mi>w</mi>
+                </mrow>
+            </mfrac>
+            <mo>=</mo>
+            <mfrac>
+                <mrow>
+                    <mi>x</mi>
+                    <mo>+</mo>
+                    <mi>i</mi>
+                    <mi>y</mi>
+                </mrow>
+                <mrow>
+                    <mi>a</mi>
+                    <mo>+</mo>
+                    <mi>i</mi>
+                    <mi>b</mi>
+                </mrow>
+            </mfrac>
+            <mo>&#x2217;</mo>
+            <mfrac>
+                <mrow>
+                    <mi>a</mi>
+                    <mo>-</mo>
+                    <mi>i</mi>
+                    <mi>b</mi>
+                </mrow>
+                <mrow>
+                    <mi>a</mi>
+                    <mo>-</mo>
+                    <mi>i</mi>
+                    <mi>b</mi>
+                </mrow>
+            </mfrac>
+        </math>
+        <p>Aquí hay un video para reforzar:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0vUKNgdzNcA?si=9qGNwRB5J5HMcUjz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="content-box" id="Representacion">
+        <h2>1.2 Representación de un número complejo en el plano complejo</h2>
+        
+        <h3>Parte real e imaginaria</h3>
+        <p>Un número complejo <strong><i> z = a + bi</i></strong> se representa en el plano complejo con su parte real <i>a</i> en el eje horizontal y su parte imaginaria <i>bi</i> en el eje vertical. El punto (a, b) en este plano representa el número complejo .</p>
+        
+        <h3>Módulo y Argumento</h3>
+        <p>El módulo de un número complejo <strong><i> z = a + bi</i></strong> es la distancia desde el origen hasta el punto (a, b) en el plano complejo y se denota como |z|. Se calcula como:</p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <msqrt>
+                <msup>
+                    <mi>a</mi>
+                    <mrow>
+                        <mn>2</mn>
+                    </mrow>
+                </msup>
+                <mo>+</mo>
+                <msup>
+                    <mi>bi</mi>
+                    <mrow>
+                        <mn>2</mn>
+                    </mrow>
+                </msup>
+            </msqrt>
+        </math>
+        <p>El argumento de z denotado como <strong><i>arg(z)</i></strong>, es el ángulo que forma el vector (a, b) con el eje positivo de las x. Se calcula como:</p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <msup>
+                    <mi>arg(z) = tan</mi>
+                    <mrow>
+                        <mn>-1</mn>
+                    </mrow>
+                    <mfrac>
+                        <mrow> <mi>b</mi></mrow>
+                        <mn>a</mn>
+                    </mfrac>
+                </msup>
+        </math>
+        
+        <h3>Igualdad de números complejos</h3>
+        <p>Dos números complejos <strong><i> z1 = a + bi </i></strong> y <strong><i> z2 = c + di </i></strong> son iguales si y solo si sus partes reales e imaginarias son iguales respectivamente, es decir:</p>
+        <p><strong><i> z1 = z2 </i></strong> si <strong><i> a = c</i></strong> y <strong><i> b = d</i></strong></p>
+        
+        <h3>Complejo conjugado</h3>
+        <p>El conjugado de un número complejo <strong><i> z = a + bi </i></strong> se denota como 
+        <math xmlns="http://www.w3.org/1998/Math/MathML">   
+            <munderover>
+                <mi>z</mi>
+                <mrow>
+                    <mi></mi>
+                </mrow>
+                <mi>_</mi>
+            </munderover>
+        </math>
+        y se define como        
+         <math xmlns="http://www.w3.org/1998/Math/MathML">   
+            <munderover>
+                <mi>z</mi>
+                <mrow>
+                    <mi></mi>
+                </mrow>
+                <mi>_</mi>
+            </munderover>
+            <mrow>
+                <mn> = a</mn>
+                <mo>-</mo>
+                <mn>bi</mn>
+            </mrow>
+        </math>
+        . En el plano complejo, esto refleja el punto (a, b) sobre el eje real.</p>
+        
+        <h3>Forma cartesiana, polar y exponencial</h3>
+        <p>Un número complejo puede representarse en tres formas diferentes:</p>
+        
+        <h4>Forma Cartesiana</h4>
+        <p>Es la forma <strong><i> z = a + bi </i></strong> donde <strong><i>a</i></strong> y <strong><i>b</i></strong> son números reales.</p>
+        
+        <h4>Forma Polar</h4>
+        <p>En forma polar, un número complejo se expresa como 
+        <math xmlns="http://www.w3.org/1998/Math/MathML">      
+            <mrow>
+                <mi>z = r cos(θ)</mi>
+                <mo>+</mo>
+                <mn>i sin(θ)</mn>
+            </mrow>
+        </math>
+        donde <strong><i>r</i></strong> es el módulo de <strong><i>z</i></strong> y <strong><i>θ</i></strong> es el argumento de z.</p>
+        
+        <h4>Forma Exponencial</h4>
+        <p>Utilizando la fórmula de Euler, un número complejo en forma polar se puede escribir en forma exponencial como 
+            <math xmlns="http://www.w3.org/1998/Math/MathML">      
+                <msup>
+                    <mi>re</mi>
+                    <mrow>
+                        <mi>iθ</mi>
+                    </mrow>
+                </msup>
+            </math>
+        </p>
+        <p>Aquí hay un video para reforzar:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4vYH4V43nfA?si=LSwkaHpoOPnUrA8y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="content-box" id="Operaciones2">
+        <h2>1.3 Operaciones: Suma, diferencia, multiplicación, división. Ejemplos.</h2>
+        <p>Los números complejos pueden realizar operaciones entre dos o más números complejos como los números reales:</p>
+        <p><strong>a) Suma:</strong> Recordando que para hacer la adición, se suman las partes reales e imaginarias de manera independiente.</p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mrow>
+                <mo>(</mo>
+                <mn>7</mn>
+                <mo>+</mo>
+                <mn>2</mn>
+                <mi>i</mi>
+                <mo>)</mo>
+                <mo>+</mo>
+                <mo>(</mo>
+                <mn>5</mn>
+                <mo>+</mo>
+                <mn>3</mn>
+                <mi>i</mi>
+                <mo>)</mo>
+                <mo>=</mo>
+                <mn>12</mn>
+                <mo>+</mo>
+                <mn>5</mn>
+                <mi>i</mi>
+            </mrow>
+        </math>
+        <p><strong>b) Resta:</strong> Recordando que para hacer la diferencia se efectúa por separado para las partes reales y las partes imaginarias.</p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mrow>
+                <mo>(</mo>
+                <mn>7</mn>
+                <mo>+</mo>
+                <mn>2</mn>
+                <mi>i</mi>
+                <mo>)</mo>
+                <mo>-</mo>
+                <mo>(</mo>
+                <mn>5</mn>
+                <mo>+</mo>
+                <mn>3</mn>
+                <mi>i</mi>
+                <mo>)</mo>
+                <mo>=</mo>
+                <mn>2</mn>
+                <mo>-</mo>
+                <mi>i</mi>
+            </mrow>
+        </math>
+        <p><strong>c) Multiplicación:</strong> Recordando que para hacer el producto se utiliza el método de multiplicación de binomios. </p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mrow>
+                <mo>(</mo>
+                <mn>2</mn>
+                <mo>+</mo>
+                <mi>i</mi>
+                <mo>)</mo>
+                <mo>(</mo>
+                <mn>3</mn>
+                <mo>-</mo>
+                <mn>4</mn>
+                <mi>i</mi>
+                <mo>)</mo>
+                <mo>=</mo>
+                <mo>(</mo>
+                <mn>6</mn>
+                <mo>-</mo>
+                <mn>8</mn>
+                <mi>i</mi>
+                <mo>+</mo>
+                <mn>3</mn>
+                <mi>i</mi>
+                <mo>-</mo>
+                <mn>4</mn>
+                <mi>i</mi>
+                <msup>
+                    <mo>)</mo>
+                    <mn>2</mn>
+                </msup>
+                <mo>=</mo>
+                <mo>(</mo>
+                <mn>6</mn>
+                <mo>-</mo>
+                <mn>5</mn>
+                <mi>i</mi>
+                <mo>-</mo>
+                <mo>(</mo>
+                <mo>-</mo>
+                <mn>4</mn>
+                <mo>)</mo>
+                <mo>)</mo>
+                <mo>=</mo>
+                <mn>10</mn>
+                <mo>-</mo>
+                <mn>5</mn>
+                <mi>i</mi>
+            </mrow>
+        </math>
+
+        <p><strong>d) División:</strong> Recordando que para hacer el cociente, hay que realizar el producto del numerador y el denominador por el conjugado complejo, luego desarrollar y simplificar.</p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mrow>
+                <mfrac>
+                    <mrow>
+                        <mn>4</mn>
+                    </mrow>
+                    <mrow>
+                        <mn>1</mn>
+                        <mo>+</mo>
+                        <mi>i</mi>
+                    </mrow>
+                </mfrac>
+                <mo>=</mo>
+                <mfrac>
+                    <mrow>
+                        <mn>4</mn>
+                    </mrow>
+                    <mrow>
+                        <mn>1</mn>
+                        <mo>-</mo>
+                        <mi>i</mi>
+                    </mrow>
+                </mfrac>
+                <mo>&times;</mo>
+                <mfrac>
+                    <mrow>
+                        <mn>1</mn>
+                        <mo>-</mo>
+                        <mi>i</mi>
+                    </mrow>
+                    <mrow>
+                        <mn>1</mn>
+                        <mo>-</mo>
+                        <mi>i</mi>
+                    </mrow>
+                </mfrac>
+                <mo>=</mo>
+                <mfrac>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>-</mo>
+                        <mn>4</mn>
+                        <mi>i</mi>
+                    </mrow>
+                    <mrow>
+                        <mn>1</mn>
+                        <mo>-</mo>
+                        <mo>(</mo>
+                        <mn>1</mn>
+                        <mo>-</mo>
+                        <mi>i</mi>
+                        <mo>)</mo>
+                    </mrow>
+                </mfrac>
+                <mo>=</mo>
+                <mfrac>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>-</mo>
+                        <mn>4</mn>
+                        <mi>i</mi>
+                    </mrow>
+                    <mrow>
+                        <mn>2</mn>
+                    </mrow>
+                </mfrac>
+                <mo>=</mo>
+                <mfrac>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>-</mo>
+                        <mn>4</mn>
+                        <mi>i</mi>
+                    </mrow>
+                    <mrow>
+                        <mn>2</mn>
+                    </mrow>
+                </mfrac>
+                <mo>=</mo>
+                <mn>2</mn>
+                <mo>-</mo>
+                <mn>2</mn>
+                <mi>i</mi>
+            </mrow>
+        </math>
+        <p>Aquí hay un video para reforzar.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6VYfqkZSpMk?si=Z5B9OpvwP7aoRCYe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="content-box" id="Raices">
+        <h3>1.4 Raíces de un Número Complejo</h3>
+        <p>Las raíces de un número complejo son los valores que, al elevarse a una cierta potencia, resultan en dicho número complejo. Para calcular las raíces n-ésimas de un número complejo 
+            <math xmlns="http://www.w3.org/1998/Math/MathML">      
+                <msup>
+                    <mi>re</mi>
+                    <mrow>
+                        <mi>iθ</mi>
+                    </mrow>
+                </msup>
+            </math>
+            , utilizamos la fórmula:</p>
+        <p><math xmlns="http://www.w3.org/1998/Math/MathML">      
+                <msup>
+                    <mi>z</mi>
+                    <mrow>
+                        <mfrac>
+                        <mrow> <mi>1</mi></mrow>
+                        <mn>n</mn>
+                        </mfrac>
+                    </mrow>
+                </msup>
+                <msup>
+                    <mi>= r</mi>
+                    <mrow>
+                        <mfrac>
+                        <mrow> <mi>1</mi></mrow>
+                        <mn>n</mn>
+                        </mfrac>
+                    </mrow>
+                </msup>
+                <mrow>
+                    <mi>cos(</mi>
+                        <mfrac>
+                            <mrow> <mi>θ + 2πk</mi></mrow>
+                            <mn>n</mn>
+                        </mfrac>
+                    <mn>)</mn>
+                    <mo>+</mo>
+                    <mn>i sin(</mn>
+                        <mfrac>
+                            <mrow> <mi>θ + 2πk</mi></mrow>
+                            <mn>n</mn>
+                        </mfrac>
+                        <mn>)</mn>
+                </mrow>
+            </math>
+        para k = 0, 1, 2, ..., n-1.</p>
+        <p>Esto significa que un número complejo tiene n raíces n-ésimas distintas, distribuidas uniformemente en el plano complejo.</p>
+        
+        <h4>Ejemplo</h4>
+        <p>Si <strong><i>z = 1 + i</i></strong>, encontramos las raíces cuadradas n = 2 de la siguiente manera:</p>
+        <ul>
+            <li>Convertimos z a su forma polar:
+            <math xmlns="http://www.w3.org/1998/Math/MathML">    
+                <mrow>
+                    <mi>r</mi>
+                    <mo>=</mo>
+                    <msqrt>
+                        <mi>2</mi>
+                    </msqrt>
+                </mrow>
+            </math>
+                y
+            <math xmlns="http://www.w3.org/1998/Math/MathML">    
+                <mrow>
+                    <mi>θ</mi>
+                    <mo>=</mo>
+                    <mn>45°</mn>
+                </mrow>
+            </math> </li>
+            <li>Calculamos las dos raíces usando k = 0  y k = 1:</li>
+            <ul>
+                <li>Para k = 0 : 
+                    <p><math xmlns="http://www.w3.org/1998/Math/MathML"> 
+                        <mrow>
+                            <mi>z_0</mi>
+                            <mo>=</mo>
+                            <msqrt>
+                                <mi>2</mi>
+                            </msqrt>
+                        </mrow>     
+                        <mrow>
+                            <mi>cos(</mi>
+                                <mfrac>
+                                    <mrow> <mi>π</mi></mrow>
+                                    <mn>8</mn>
+                                </mfrac>
+                            <mn>)</mn>
+                            <mo>+</mo>
+                            <mn>i sin(</mn>
+                                <mfrac>
+                                    <mrow> <mi>π</mi></mrow>
+                                    <mn>8</mn>
+                                </mfrac>
+                                <mn>)</mn>
+                        </mrow>
+                    </math></li>
+                <li>Para k = 1 : 
+                    <p><math xmlns="http://www.w3.org/1998/Math/MathML"> 
+                        <mrow>
+                            <mi>z_1</mi>
+                            <mo>=</mo>
+                            <msqrt>
+                                <mi>2</mi>
+                            </msqrt>
+                        </mrow>     
+                        <mrow>
+                            <mi>cos(</mi>
+                                <mfrac>
+                                    <mrow> <mi>9π</mi></mrow>
+                                    <mn>8</mn>
+                                </mfrac>
+                            <mn>)</mn>
+                            <mo>+</mo>
+                            <mn>i sin(</mn>
+                                <mfrac>
+                                    <mrow> <mi>9π</mi></mrow>
+                                    <mn>8</mn>
+                                </mfrac>
+                                <mn>)</mn>
+                        </mrow>
+                    </math></li>
+            </ul>
+        </ul>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9dAalvEC_AA?si=pzm10P5rj8-oOgSd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+
+</main>
+<footer class="footer">
+  
+    <div class="footer-links">
+        <a href="#">Política de Privacidad</a>
+        <a href="#">Política de Cookies</a>
+    </div>
+
+    <div class="footer-company">
+        ESCOM IPN, Unidad Profesional Adolfo López Mateos, Av. Juan de Dios Bátiz, Nueva Industrial Vallejo, Gustavo A. Madero, 07320 Ciudad de México, CDMX
+    </div>
+
+    <div class="footer-social">
+        <a href="https://www.instagram.com/explore/locations/739742848/escom-ipn/"><img src="Images/instagram.png" alt="Instagram" width="20" height="20"></a>
+        <a href="https://www.escom.ipn.mx/" class="ipnlogo"><img src="Images/ipn.png" alt="RSS" width="20" height="20" border-adi></a>
+        <a href="https://x.com/escomunidad?lang=en"><img src="Images/x.png" alt="X" width="20" height="20"></a>
+        <a href="https://www.facebook.com/escomipnmx"><img src="Images/facebook.png" alt="Facebook" width="20" height="20"></a>
+    </div>
+</footer>
+</body>
+</html>
